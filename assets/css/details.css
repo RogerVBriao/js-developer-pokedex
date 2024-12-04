@@ -1,0 +1,54 @@
+header {
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#pokemon-card .pokemon span.name {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+}
+#number{
+    font-size: larger;
+}
+
+#pokemon-image{
+    max-width: 100%;
+    height: 250px;
+}
+#detail{
+    justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.pokemon .detail .abilities .ability{
+    background-color: #6c79db;
+}
